@@ -4,9 +4,19 @@ body {
     font-family: 'News Cycle', sans-serif;
 }
 .top-container {
-    background-color: aquamarine;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
+}
+
+p {
+    color: #40514E;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
 }
 
 h1 {
@@ -58,7 +68,7 @@ h3 {
     margin-right: 30px;
   }
   
-  .react {
+.react {
     width: 25%;
     float: right;
     margin-left: 30px;
@@ -69,7 +79,7 @@ h3 {
     margin: 100px auto 100px auto;
     text-align: left;
   }
-  .btn {
+.btn {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -90,7 +100,7 @@ h3 {
     text-align: center;
  }
  
- .btn:hover {
+.btn:hover {
     background: aquamarine;
     border: solid #66BFBF 1px;
     -webkit-border-radius: 20px;
@@ -98,7 +108,10 @@ h3 {
     border-radius: 20px;
     text-decoration: none;
  }
- a {
-     
+a {
      color: #11999e ;
+     text-decoration: none;
+ }
+ .copywrite {
+     color: #EAF6F6;
  }
