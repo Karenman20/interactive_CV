@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+}
+.top-container {
+    background-color: aquamarine;
+    position: relative;
+    padding-top: 100px;
+}
+
+h1 {
+   margin: 10px auto 0 auto;
+   font-family: 'Indie Flower', cursive;
+   font-size: 5.625rem;
+   color: #66BFBF;
+}
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem; 
+    font-weight: normal;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+h3 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #11999E;
+}
+.middle-container {
+    margin: 100px 0;
+  }
+  
+  .bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  }
+.pro {
+    text-decoration: underline;
+}
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+}
+.my_image {
+    margin-top: 1%;
+    border-radius: 50%;
+    width: 15%;
+}
+
+
+.skills_image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .react {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  .btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: Verdana;
+    width: 177px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 26px;
+    background-color: #66BFBF;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    background: aquamarine;
+    border: solid #66BFBF 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+ a {
+     
+     color: #11999e ;
+ }
